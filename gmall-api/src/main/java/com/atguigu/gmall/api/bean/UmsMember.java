@@ -1,7 +1,5 @@
-package com.atguigu.gmall.user.bean;
+package com.atguigu.gmall.api.bean;
 
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.io.Serializable;
 import java.util.Date;
@@ -9,7 +7,6 @@ import java.util.Date;
 public class UmsMember implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)//主键返回策略
     private String id;
     private String memberLevelId;
     private String username;

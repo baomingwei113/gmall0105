@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-@Service
+@Service//dubbo的注解,在配置文件中需要定义 能扫描到他
 public class UserServiceImpl implements UserService {
 
     @Autowired
